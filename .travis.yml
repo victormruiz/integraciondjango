@@ -11,5 +11,5 @@ script: python3 ./manage.py test
 deploy:
   provider: surge
   project: .
-  domain: victormrmintegracion.surge.sh
+  domain: victormrmdjangotutorial.surge.sh
   skip_cleanup: true
