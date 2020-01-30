@@ -6,7 +6,7 @@ branches:
   only:
     - master
 
-script: test.py
+script: django_tutorial/test.py
 
 deploy:
   provider: surge
