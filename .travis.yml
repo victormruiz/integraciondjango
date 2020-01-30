@@ -6,7 +6,7 @@ branches:
   only:
     - master
 
-script: python3 mange.py test
+script: python3 ./mange.py test
 
 deploy:
   provider: surge
