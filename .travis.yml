@@ -1,0 +1,17 @@
+ 
+language: python
+python:
+ - "3.6"
+
+branches:
+  only:
+    - master
+
+install:
+ - pip install html5validator
+
+deploy:
+  provider: surge
+  project: .
+  domain: victormrm.surge.sh
+  skip_cleanup: true
