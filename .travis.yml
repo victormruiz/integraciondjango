@@ -10,6 +10,6 @@ script: python3 ./manage.py test
 
 deploy:
   provider: surge
-  project: .
+  project: ./public
   domain: victormrmdjangotutorial.surge.sh
   skip_cleanup: true
